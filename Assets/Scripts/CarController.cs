@@ -15,7 +15,30 @@ public class CarController : MonoBehaviour {
     public List<AxleInfo> axleInfos; // the information about each individual axle
     public float maxMotorTorque; // maximum torque the motor can apply to wheel
     public float maxSteeringAngle; // maximum steer angle the wheel can have
+
+    public float speedThreshold;
+    public int stepsBelowThreshold;
+    public int stepsAboveThreshold;
+    
+    public void ApplyLocalPositionToVisuals(WheelCollider collider)
+    {
+        if (collider.transform.childCount == 0)
+        {
+            return;
+        }
+
+        Transform visualWheel = collider.transform.GetChild(0);
+
+        Vector3 position;
+        Quaternion rotation;
+        collider.GetWorldPose(out position, out rotation);
+
+        visualWheel.transform.position = position;
+        visualWheel.transform.rotation = rotation;
         
+        collider.ConfigureVehicleSubsteps(speedThreshold, stepsBelowThreshold, stepsAboveThreshold);
+    }
+    
     public void FixedUpdate()
     {
         float motor = maxMotorTorque * Input.GetAxis("Vertical");
@@ -31,6 +54,9 @@ public class CarController : MonoBehaviour {
                     axleInfo.leftWheel.motorTorque = motor;
                     axleInfo.rightWheel.motorTorque = motor;
                }
+
+               ApplyLocalPositionToVisuals(axleInfo.leftWheel);
+               ApplyLocalPositionToVisuals(axleInfo.rightWheel);
            } 
     }
 }
