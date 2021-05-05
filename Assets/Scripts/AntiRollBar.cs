@@ -5,32 +5,38 @@ using UnityEngine;
 
 public class AntiRollBar : MonoBehaviour
 {
-   public WheelCollider WheelL;
-   public WheelCollider WheelR;
-   public Rigidbody CarRigidBody;
-   public float AntiRoll = 1000.0f;
+   public WheelCollider wheelL;
+   private Transform m_WheelLTransform;
+   public WheelCollider wheelR;
+   private Transform m_WheelRTransform;
+   public Rigidbody carRigidBody;
+   public float antiRoll = 1000.0f;
 
+   void Start()
+   {
+      m_WheelLTransform = wheelL.transform;
+      m_WheelRTransform = wheelR.transform;
+   }
    private void FixedUpdate()
    {
-      WheelHit hit;
       var travelL = 1.0f;
       var travelR = 1.0f;
 
-      var groundedL = WheelL.GetGroundHit(out hit);
+      var groundedL = wheelL.GetGroundHit(out var hit);
       if (groundedL)
-         travelL = (-WheelL.transform.InverseTransformPoint(hit.point).y - WheelL.radius) / WheelL.suspensionDistance;
+         travelL = (-wheelL.transform.InverseTransformPoint(hit.point).y - wheelL.radius) / wheelL.suspensionDistance;
 
-      var groundedR = WheelR.GetGroundHit(out hit);
+      var groundedR = wheelR.GetGroundHit(out hit);
       if(groundedR) 
-         travelR = (-WheelR.transform.InverseTransformPoint(hit.point).y - WheelR.radius) / WheelR.suspensionDistance;
+         travelR = (-wheelR.transform.InverseTransformPoint(hit.point).y - wheelR.radius) / wheelR.suspensionDistance;
 
-      var antiRollForce = (travelL - travelR) * AntiRoll;
+      var antiRollForce = (travelL - travelR) * antiRoll;
       
       if(groundedL) 
-         CarRigidBody.AddForceAtPosition(WheelL.transform.up * -antiRollForce, WheelL.transform.position);
+         carRigidBody.AddForceAtPosition(wheelL.transform.up * -antiRollForce, m_WheelLTransform.position);
       
       if(groundedR)
-         CarRigidBody.AddForceAtPosition(WheelR.transform.up * -antiRollForce, WheelR.transform.position);
+         carRigidBody.AddForceAtPosition(wheelR.transform.up * antiRollForce, m_WheelRTransform.position);
       
    }
 }

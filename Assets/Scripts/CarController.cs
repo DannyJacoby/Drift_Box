@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,7 +22,7 @@ public class CarController : MonoBehaviour {
     public int stepsBelowThreshold;
     public int stepsAboveThreshold;
 
-    private bool started = false;
+    private bool m_Started = false;
     public void ApplyLocalPositionToVisuals(WheelCollider collider)
     {
         if (collider.transform.childCount == 0)
@@ -29,22 +30,27 @@ public class CarController : MonoBehaviour {
             return;
         }
 
-        Transform visualWheel = collider.transform.GetChild(0);
-
-        Vector3 position;
-        Quaternion rotation;
-        collider.GetWorldPose(out position, out rotation);
-
-        visualWheel.transform.position = position;
-        visualWheel.transform.rotation = rotation;
+        var visualWheel = collider.transform.GetChild(0);
+        var visualWheelTransform = visualWheel.transform;
+        
+        collider.GetWorldPose(out var position, out var rotation);
+        
+        visualWheelTransform.position = position;
+        visualWheelTransform.rotation = rotation;
     }
-    
+
     public void FixedUpdate()
     {
-        float motor = maxMotorTorque * Input.GetAxis("Vertical");
-        float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
+        if (Input.GetKey(KeyCode.R))
+        {
+            this.transform.localPosition = new Vector3(0, 1, 0);
+            this.transform.rotation = new Quaternion(0f, 0f, 0f, 0f);
+        }
+        
+        var motor = maxMotorTorque * Input.GetAxis("Vertical");
+        var steering = maxSteeringAngle * Input.GetAxis("Horizontal");
            
-           foreach (AxleInfo axleInfo in axleInfos) {
+           foreach (var axleInfo in axleInfos) {
                if (axleInfo.steering) {
                    axleInfo.leftWheel.steerAngle = steering; 
                    axleInfo.rightWheel.steerAngle = steering;
@@ -72,12 +78,12 @@ public class CarController : MonoBehaviour {
                ApplyLocalPositionToVisuals(axleInfo.leftWheel);
                ApplyLocalPositionToVisuals(axleInfo.rightWheel);
 
-               if (started) continue;
+               if (m_Started) continue;
                axleInfo.leftWheel.ConfigureVehicleSubsteps(speedThreshold, stepsBelowThreshold, stepsAboveThreshold);
                axleInfo.rightWheel.ConfigureVehicleSubsteps(speedThreshold, stepsBelowThreshold, stepsAboveThreshold);
            }
 
-           started = true;
+           m_Started = true;
     }
 }
     

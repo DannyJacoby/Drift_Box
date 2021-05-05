@@ -12,8 +12,8 @@ public class Ghost : MonoBehaviour
     public static string PickedLvl;
     public bool amOpening;
 
-    private bool hasPickedCar;
-    private bool hasPickedLvl;
+    private bool m_HasPickedCar;
+    private bool m_HasPickedLvl;
     
     private void Start()
     {
@@ -40,20 +40,20 @@ public class Ghost : MonoBehaviour
                 {
                     Debug.Log("You've chosen the car " + hit.collider.gameObject.name);
                     PickedCar = hit.collider.gameObject.name;
-                    hasPickedCar = true;
+                    m_HasPickedCar = true;
                 }
 
                 if (hit.collider.CompareTag("Level"))
                 {
                     Debug.Log("You've chosen the level " + hit.collider.name);
                     PickedLvl = hit.collider.gameObject.name;
-                    hasPickedLvl = true;
+                    m_HasPickedLvl = true;
                 }
 
             }
         }
 
-        if (hasPickedCar && hasPickedLvl)
+        if (m_HasPickedCar && m_HasPickedLvl)
         {
             Debug.Log("With car " + PickedCar + " and level " + PickedLvl + " starting game");
             UnityEngine.SceneManagement.SceneManager.LoadScene(PickedLvl);
