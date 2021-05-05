@@ -9,6 +9,7 @@ public class AxleInfo {
     public WheelCollider rightWheel;
     public bool motor; // is this wheel attached to motor?
     public bool steering; // does this wheel apply steer angle?
+    public bool isBackWheels; // is this axel the rear wheels?
 }
 
 public class CarController : MonoBehaviour { 
@@ -19,7 +20,8 @@ public class CarController : MonoBehaviour {
     public float speedThreshold;
     public int stepsBelowThreshold;
     public int stepsAboveThreshold;
-    
+
+    private bool started = false;
     public void ApplyLocalPositionToVisuals(WheelCollider collider)
     {
         if (collider.transform.childCount == 0)
@@ -35,8 +37,6 @@ public class CarController : MonoBehaviour {
 
         visualWheel.transform.position = position;
         visualWheel.transform.rotation = rotation;
-        
-        collider.ConfigureVehicleSubsteps(speedThreshold, stepsBelowThreshold, stepsAboveThreshold);
     }
     
     public void FixedUpdate()
@@ -55,9 +55,29 @@ public class CarController : MonoBehaviour {
                     axleInfo.rightWheel.motorTorque = motor;
                }
 
+               if (axleInfo.isBackWheels)
+               {
+                   if (Input.GetKey(KeyCode.Space))
+                   {
+                       axleInfo.leftWheel.brakeTorque = 200000.0f;
+                       axleInfo.rightWheel.brakeTorque = 200000.0f;
+                   }
+                   else
+                   {
+                       axleInfo.leftWheel.brakeTorque = 0.0f;
+                       axleInfo.rightWheel.brakeTorque = 0.0f;
+                   }
+               }
+
                ApplyLocalPositionToVisuals(axleInfo.leftWheel);
                ApplyLocalPositionToVisuals(axleInfo.rightWheel);
-           } 
+
+               if (started) continue;
+               axleInfo.leftWheel.ConfigureVehicleSubsteps(speedThreshold, stepsBelowThreshold, stepsAboveThreshold);
+               axleInfo.rightWheel.ConfigureVehicleSubsteps(speedThreshold, stepsBelowThreshold, stepsAboveThreshold);
+           }
+
+           started = true;
     }
 }
     
