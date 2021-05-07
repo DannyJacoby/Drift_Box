@@ -22,18 +22,20 @@ public class CarController : MonoBehaviour {
     public int stepsBelowThreshold;
     public int stepsAboveThreshold;
 
+    public float strengthCoefficient = 20000f;
+    
     private bool m_Started = false;
-    public void ApplyLocalPositionToVisuals(WheelCollider collider)
+    public void ApplyLocalPositionToVisuals(WheelCollider other)
     {
-        if (collider.transform.childCount == 0)
+        if (other.transform.childCount == 0)
         {
             return;
         }
 
-        var visualWheel = collider.transform.GetChild(0);
+        var visualWheel = other.transform.GetChild(0);
         var visualWheelTransform = visualWheel.transform;
         
-        collider.GetWorldPose(out var position, out var rotation);
+        other.GetWorldPose(out var position, out var rotation);
         
         visualWheelTransform.position = position;
         visualWheelTransform.rotation = rotation;
@@ -43,11 +45,12 @@ public class CarController : MonoBehaviour {
     {
         if (Input.GetKey(KeyCode.R))
         {
-            this.transform.localPosition = new Vector3(0, 1, 0);
-            this.transform.rotation = new Quaternion(0f, 0f, 0f, 0f);
+            var transform1 = transform;
+            transform1.localPosition = new Vector3(0, 1, 0);
+            transform1.rotation = new Quaternion(0f, 0f, 0f, 0f);
         }
         
-        var motor = maxMotorTorque * Input.GetAxis("Vertical");
+        var motor = maxMotorTorque * Input.GetAxis("Vertical") * Time.deltaTime * strengthCoefficient;
         var steering = maxSteeringAngle * Input.GetAxis("Horizontal");
            
            foreach (var axleInfo in axleInfos) {
