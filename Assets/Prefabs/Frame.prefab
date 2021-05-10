@@ -80,7 +80,7 @@ WheelCollider:
     damper: 9000
     targetPosition: 1
   m_SuspensionDistance: 0.08
-  m_ForceAppPointDistance: 0.5
+  m_ForceAppPointDistance: 0
   m_Mass: 100
   m_WheelDampingRate: 1
   m_ForwardFriction:
@@ -177,17 +177,16 @@ MonoBehaviour:
     rightWheel: {fileID: 3792345723725730417}
     motor: 1
     steering: 1
-    isBackWheels: 0
   - leftWheel: {fileID: 3792345722928740007}
     rightWheel: {fileID: 3792345724410016161}
     motor: 1
     steering: 0
-    isBackWheels: 1
   maxMotorTorque: 1100
   maxSteeringAngle: 60
   speedThreshold: 5
   stepsBelowThreshold: 5
   stepsAboveThreshold: 1
+  strengthCoefficient: 2000
 --- !u!65 &3792345723077136589
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -247,7 +246,7 @@ WheelCollider:
     damper: 9000
     targetPosition: 1
   m_SuspensionDistance: 0.08
-  m_ForceAppPointDistance: 0.5
+  m_ForceAppPointDistance: 0
   m_Mass: 100
   m_WheelDampingRate: 1
   m_ForwardFriction:
@@ -322,7 +321,7 @@ WheelCollider:
     damper: 9000
     targetPosition: 1
   m_SuspensionDistance: 0.08
-  m_ForceAppPointDistance: 0.5
+  m_ForceAppPointDistance: 0
   m_Mass: 100
   m_WheelDampingRate: 1
   m_ForwardFriction:
@@ -397,7 +396,7 @@ WheelCollider:
     damper: 9000
     targetPosition: 1
   m_SuspensionDistance: 0.08
-  m_ForceAppPointDistance: 0.5
+  m_ForceAppPointDistance: 0
   m_Mass: 100
   m_WheelDampingRate: 1
   m_ForwardFriction:
