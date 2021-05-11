@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.SceneManagement;
 
 public class KartController : MonoBehaviour
 {
@@ -44,8 +45,11 @@ public class KartController : MonoBehaviour
     // public Transform flashParticles;
     // public Color[] turboColors;
 
+    private GameObject m_Spawn;
+    
     private void Start()
     {
+        m_Spawn = GameObject.FindGameObjectWithTag("Respawn");
         // if (Camera.main is { }) m_PostVolume = Camera.main.GetComponent<PostProcessVolume>();
         // m_PostProfile = m_PostVolume.profile;
         //
@@ -72,6 +76,20 @@ public class KartController : MonoBehaviour
         //     float time = Time.timeScale == 1 ? .2f : 1;
         //     Time.timeScale = time;
         // }
+
+        // Reset the player
+        if (Input.GetKey(KeyCode.R))
+        {
+            transform.position = m_Spawn.transform.position;
+            transform.rotation = m_Spawn.transform.rotation;
+        }
+
+        // Return to main menu
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("OpeningScene");   
+        }
+        
 
         //Follow Collider
         transform.position = sphere.transform.position - new Vector3(0, 0.4f, 0);
