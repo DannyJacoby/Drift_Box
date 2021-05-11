@@ -8,8 +8,8 @@ using UnityEngine.SceneManagement;
 
 public class Ghost : MonoBehaviour
 {
-    public static string PickedCar;
-    public static string PickedLvl;
+    public static string PickedCar = "";
+    public static string PickedLvl = "";
     public bool amOpening;
 
     private bool m_HasPickedCar;
@@ -17,24 +17,16 @@ public class Ghost : MonoBehaviour
     
     private void Start()
     {
-        if (!amOpening)
-        {
-            if (SceneManager.GetActiveScene().name == "BoxLevel")
-            {
-                PickedCar = "AE86";
-                PickedLvl = "BoxLevel";
-            }
-            Debug.Log("You're going to use car " + PickedCar);
-        }
+        if (amOpening) return;
+        Debug.Log("You're going to use car " + PickedCar);
     }
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0) && amOpening)
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit))
+            var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out var hit))
             {
                 if (hit.collider.CompareTag("Car"))
                 {
@@ -53,12 +45,10 @@ public class Ghost : MonoBehaviour
             }
         }
 
-        if (m_HasPickedCar && m_HasPickedLvl)
-        {
-            Debug.Log("With car " + PickedCar + " and level " + PickedLvl + " starting game");
-            UnityEngine.SceneManagement.SceneManager.LoadScene(PickedLvl);
-        }
-        
+        if (!m_HasPickedCar || !m_HasPickedLvl) return;
+        Debug.Log("With car " + PickedCar + " and level " + PickedLvl + " starting game");
+        SceneManager.LoadScene(PickedLvl);
+
     }
     
 }

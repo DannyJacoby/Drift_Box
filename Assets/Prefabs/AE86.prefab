@@ -130,8 +130,8 @@ MonoBehaviour:
   kartNormal: {fileID: 4023876608199689150}
   sphere: {fileID: 1792885497367382027}
   drifting: 0
-  acceleration: 60
-  steering: 15
+  acceleration: 75
+  steering: 20
   gravity: 25
   layerMask:
     serializedVersion: 2

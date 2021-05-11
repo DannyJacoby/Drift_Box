@@ -37,8 +37,21 @@ sysinfo.txt
 *.unitypackage
 
 # Packages (Unused)
-Assets\KennyAssets\castle-kit-1.0\
-Assets\KennyAssets\kenney_citykitroads\
-Assets\KennyAssets\kenney_modularbuildings_updated\
-Assets\KennyAssets\kenney_natureKit_2.1\
-Assets\KennyAssets\kenney_pirateKit_1.1\
+Assets/KennyAssets/*.meta
+Assets/KennyAssets/kenney_racingkit2/*.meta
+Assets/KennyAssets/kenney_citykitroads/*.meta
+
+Assets/KennyAssets/kenney_racingkit2/Isometric/
+Assets/KennyAssets/kenney_citykitroads/Isometric/
+
+Assets/KennyAssets/kenney_racingkit2/Models/DAE format/
+Assets/KennyAssets/kenney_citykitroads/Models/DAE format/
+Assets/KennyAssets/kenney_racingkit2/Models/GLTF format/
+Assets/KennyAssets/kenney_citykitroads/Models/GLTF format/
+Assets/KennyAssets/kenney_racingkit2/Models/OBJ format/
+Assets/KennyAssets/kenney_citykitroads/Models/OBJ format/
+Assets/KennyAssets/kenney_racingkit2/Models/STL format/
+Assets/KennyAssets/kenney_citykitroads/Models/STL format/
+
+
+
