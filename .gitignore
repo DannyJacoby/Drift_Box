@@ -35,3 +35,10 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Packages (Unused)
+Assets\KennyAssets\castle-kit-1.0\
+Assets\KennyAssets\kenney_citykitroads\
+Assets\KennyAssets\kenney_modularbuildings_updated\
+Assets\KennyAssets\kenney_natureKit_2.1\
+Assets\KennyAssets\kenney_pirateKit_1.1\
