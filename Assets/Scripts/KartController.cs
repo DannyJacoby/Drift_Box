@@ -44,12 +44,9 @@ public class KartController : MonoBehaviour
     // public Transform wheelParticles;
     // public Transform flashParticles;
     // public Color[] turboColors;
-
-    private GameObject m_Spawn;
     
     private void Start()
     {
-        m_Spawn = GameObject.FindGameObjectWithTag("Respawn");
         // if (Camera.main is { }) m_PostVolume = Camera.main.GetComponent<PostProcessVolume>();
         // m_PostProfile = m_PostVolume.profile;
         //
@@ -71,26 +68,6 @@ public class KartController : MonoBehaviour
 
     private void Update()
     {
-        // if (Input.GetKeyDown(KeyCode.Space))
-        // {
-        //     float time = Time.timeScale == 1 ? .2f : 1;
-        //     Time.timeScale = time;
-        // }
-
-        // Reset the player
-        if (Input.GetKey(KeyCode.R))
-        {
-            transform.position = m_Spawn.transform.position;
-            transform.rotation = m_Spawn.transform.rotation;
-        }
-
-        // Return to main menu
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            SceneManager.LoadScene("OpeningScene");   
-        }
-        
-
         //Follow Collider
         transform.position = sphere.transform.position - new Vector3(0, 0.4f, 0);
 
@@ -134,7 +111,7 @@ public class KartController : MonoBehaviour
             Steer(m_DriftDirection, control);
             m_DriftPower += powerControl;
 
-            ColorDrift();
+            // ColorDrift();
         }
 
         if (Input.GetButtonUp("Jump") && drifting)
@@ -154,8 +131,9 @@ public class KartController : MonoBehaviour
         }
         else
         {
-            var control = (m_DriftDirection == 1) ? Input.GetAxis("Horizontal").Remap(-1, 1, .5f, 2) : Input.GetAxis("Horizontal").Remap(-1, 1, 2, .5f);
-            kartModel.parent.localRotation = Quaternion.Euler(0, Mathf.LerpAngle(kartModel.parent.localEulerAngles.y,(control * 15) * m_DriftDirection, .2f), 0);
+            // TODO discover why the car vibrates like a chihuahua when drifting, this is the cause but why
+            // var control = (m_DriftDirection == 1) ? Input.GetAxis("Horizontal").Remap(-1, 1, .5f, 2) : Input.GetAxis("Horizontal").Remap(-1, 1, 2, .5f);
+            // kartModel.parent.localRotation = Quaternion.Euler(0, Mathf.LerpAngle(kartModel.parent.localEulerAngles.y,(control * 15) * m_DriftDirection, .2f), 0);
         }
 
         //b) Wheels
@@ -170,6 +148,23 @@ public class KartController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // // Reset the player
+        // if (Input.GetKey(KeyCode.R))
+        // {
+        //     transform.GetChild(0).transform.position = new Vector3(0, 10, 0);
+        //     transform.GetChild(0).transform.rotation = Quaternion.identity;
+        //     transform.GetChild(1).transform.position = new Vector3(0, 10, 0);
+        //     transform.GetChild(1).transform.rotation = Quaternion.identity;
+        //     return;
+        // }
+
+        // // Return to main menu
+        // if (Input.GetKey(KeyCode.Escape))
+        // {
+        //     SceneManager.LoadScene("OpeningScene");
+        //     return;
+        // }
+        
         //Forward Acceleration
         if(!drifting)
             sphere.AddForce(-kartModel.transform.right * m_CurrentSpeed, ForceMode.Acceleration);
@@ -196,7 +191,7 @@ public class KartController : MonoBehaviour
 
         if (m_DriftMode > 0)
         {
-            DOVirtual.Float(m_CurrentSpeed * 3, m_CurrentSpeed, .3f * m_DriftMode, Speed);
+            DOVirtual.Float(m_CurrentSpeed * 1.5f, m_CurrentSpeed, .3f * m_DriftMode, Speed);
             // DOVirtual.Float(0, 1, .5f, ChromaticAmount).OnComplete(() => DOVirtual.Float(1, 0, .5f, ChromaticAmount));
             // kartModel.Find("Tube001").GetComponentInChildren<ParticleSystem>().Play();
             // kartModel.Find("Tube002").GetComponentInChildren<ParticleSystem>().Play();

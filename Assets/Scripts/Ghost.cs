@@ -32,6 +32,7 @@ public class Ghost : MonoBehaviour
 
     private void Update()
     {
+        
         if (Input.GetMouseButtonDown(0) && amOpening)
         {
             var ray = Camera.main.ScreenPointToRay(Input.mousePosition);

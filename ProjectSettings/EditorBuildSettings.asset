@@ -20,4 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MountainLevel.unity
     guid: be21746f0bbd43f4cb54215df0460c6d
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 69e147c15787632489156c4f5dd4b3c0, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 0e33a950a5e901445934bcb87ee75a80, type: 2}

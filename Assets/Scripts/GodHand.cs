@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
 public class GodHand : MonoBehaviour
@@ -13,8 +14,36 @@ public class GodHand : MonoBehaviour
     public GameObject Miata;
     public GameObject MuscleCar;
     public Transform Spawn;
-    
+
+    private GameObject spawnedCar;
+
+    public bool amOpening;
     private void Start()
+    {
+        if (amOpening) return;
+        SpawnCar();   
+    }
+    
+    private void FixedUpdate()
+    {
+        if (Input.GetKey(KeyCode.R) && !amOpening)
+        {
+            var scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
+        }
+
+        if (Input.GetKey(KeyCode.Escape) && !amOpening)
+        {
+            SceneManager.LoadScene("OpeningScene");
+        }
+
+        if (Input.GetKey(KeyCode.O) && amOpening)
+        {
+            Application.Quit();
+        }
+    }
+
+    private void SpawnCar()
     {
         var pickedCar = Ghost.PickedCar;
         switch (pickedCar)
@@ -28,6 +57,8 @@ public class GodHand : MonoBehaviour
             
                 cvc.Follow = ae86.transform.GetChild(0).transform;
                 cvc.LookAt = ae86.transform.GetChild(0).transform;
+
+                spawnedCar = ae86;
                 break;
             }
             case "Miata":
@@ -38,6 +69,9 @@ public class GodHand : MonoBehaviour
             
                 cvc.Follow = miata.transform.GetChild(0).transform;
                 cvc.LookAt = miata.transform.GetChild(0).transform;
+                
+                spawnedCar = miata;
+                
                 break;
             }
             case "MuscleCar":
@@ -48,6 +82,9 @@ public class GodHand : MonoBehaviour
             
                 cvc.Follow = muscleCar.transform.GetChild(0).transform;
                 cvc.LookAt = muscleCar.transform.GetChild(0).transform;
+                
+                spawnedCar = muscleCar;
+                
                 break;
             }
             case "":
@@ -59,6 +96,9 @@ public class GodHand : MonoBehaviour
                 
                 cvc.Follow = car.transform.GetChild(0).transform;
                 cvc.LookAt = car.transform.GetChild(0).transform;
+                
+                spawnedCar = car;
+                
                 break;
         }
     }
