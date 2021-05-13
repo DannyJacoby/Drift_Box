@@ -32,6 +32,7 @@ public class KartController : MonoBehaviour
     public float acceleration = 30f;
     public float steering = 80f;
     public float gravity = 10f;
+    public float boostLevels = 1.5f;
     public LayerMask layerMask;
 
     [Header("Model Parts")]
@@ -44,9 +45,13 @@ public class KartController : MonoBehaviour
     // public Transform wheelParticles;
     // public Transform flashParticles;
     // public Color[] turboColors;
+
+    [Header("Special Components")] public BackgroundMusic player;
     
     private void Start()
     {
+        // player = GameObject.FindGameObjectWithTag("Audio Player").GetComponent<BackgroundMusic>();
+        // player.PlayEngineStart();
         // if (Camera.main is { }) m_PostVolume = Camera.main.GetComponent<PostProcessVolume>();
         // m_PostProfile = m_PostVolume.profile;
         //
@@ -77,6 +82,13 @@ public class KartController : MonoBehaviour
         if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
             m_Speed = -acceleration;
 
+        // //Sound Effects (forward/backward)
+        // if (Input.GetKey(KeyCode.UpArrow) 
+        //     || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
+        // {
+        //     player.PlayMovementSound();
+        // }
+
         //Steer
         if (Input.GetAxis("Horizontal") != 0)
         {
@@ -101,7 +113,7 @@ public class KartController : MonoBehaviour
 
             kartModel.parent.DOComplete();
             kartModel.parent.DOPunchPosition(transform.up * .2f, .3f, 5);
-
+            
         }
 
         if (drifting)
@@ -112,6 +124,10 @@ public class KartController : MonoBehaviour
             m_DriftPower += powerControl;
 
             // ColorDrift();
+            
+            // TODO fix this sound effect, as it keeps competing with the forward movement sound which is bad
+            // Sound Effects
+            // player.PlaySlidingSound();
         }
 
         if (Input.GetButtonUp("Jump") && drifting)
@@ -191,7 +207,7 @@ public class KartController : MonoBehaviour
 
         if (m_DriftMode > 0)
         {
-            DOVirtual.Float(m_CurrentSpeed * 1.5f, m_CurrentSpeed, .3f * m_DriftMode, Speed);
+            DOVirtual.Float(m_CurrentSpeed * boostLevels, m_CurrentSpeed, .3f * m_DriftMode, Speed);
             // DOVirtual.Float(0, 1, .5f, ChromaticAmount).OnComplete(() => DOVirtual.Float(1, 0, .5f, ChromaticAmount));
             // kartModel.Find("Tube001").GetComponentInChildren<ParticleSystem>().Play();
             // kartModel.Find("Tube002").GetComponentInChildren<ParticleSystem>().Play();

@@ -59,6 +59,7 @@ public class GodHand : MonoBehaviour
                 cvc.LookAt = ae86.transform.GetChild(0).transform;
 
                 spawnedCar = ae86;
+
                 break;
             }
             case "Miata":
@@ -98,8 +99,9 @@ public class GodHand : MonoBehaviour
                 cvc.LookAt = car.transform.GetChild(0).transform;
                 
                 spawnedCar = car;
-                
+
                 break;
         }
+        
     }
 }

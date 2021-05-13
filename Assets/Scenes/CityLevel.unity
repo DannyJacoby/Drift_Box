@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.1296168, g: 0.09421895, b: 0.12406843, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -174,6 +174,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1695832595925613911, guid: 29bb4ba981ca844489e7d896b174ab56, type: 3}
+      propertyPath: newSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695832595925613911, guid: 29bb4ba981ca844489e7d896b174ab56, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5101888542649185359, guid: 29bb4ba981ca844489e7d896b174ab56, type: 3}
+      propertyPath: newSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5101888542649185359, guid: 29bb4ba981ca844489e7d896b174ab56, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5820692877004812134, guid: 29bb4ba981ca844489e7d896b174ab56, type: 3}
       propertyPath: m_Name
       value: City
@@ -206,7 +222,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570572266}
-  m_LocalRotation: {x: 0.18910751, y: -0.0000000084479606, z: 0.0000000016269286, w: 0.9819564}
+  m_LocalRotation: {x: 0.18910751, y: 0.000000008447955, z: -0.0000000016269276, w: 0.9819564}
   m_LocalPosition: {x: 0, y: 6, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -322,13 +338,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 673002926}
-  m_LocalRotation: {x: 0.92387956, y: 0, z: 0, w: 0.38268343}
-  m_LocalPosition: {x: 0, y: 200, z: 400}
+  m_LocalRotation: {x: 0.9284859, y: 0, z: 0, w: 0.37136787}
+  m_LocalPosition: {x: 0, y: 446, z: 505}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1722067198}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 135, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 136.4, y: 0, z: 0}
 --- !u!108 &673002928
 Light:
   m_ObjectHideFlags: 0
@@ -341,7 +357,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.75
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -437,7 +453,10 @@ MonoBehaviour:
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
+    ModeOverride: 0
     LensShift: {x: 0, y: 0}
+    GateFit: 0
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -453,7 +472,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 682525483}
-  m_LocalRotation: {x: 0.18910751, y: -0.0000000084479606, z: 0.0000000016269286, w: 0.9819564}
+  m_LocalRotation: {x: 0.18910751, y: 0.000000008447955, z: -0.0000000016269276, w: 0.9819564}
   m_LocalPosition: {x: 0, y: 6, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -477,7 +496,7 @@ MonoBehaviour:
   m_FocusTracking: 1
   m_FocusTarget: {fileID: 0}
   m_FocusOffset: 0.3
-  m_Profile: {fileID: 11400000, guid: ab4332612b9f4a84bac0f98f5e946ca2, type: 2}
+  m_Profile: {fileID: 0}
 --- !u!114 &682525487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -558,6 +577,7 @@ MonoBehaviour:
   Miata: {fileID: 3654973916611329532, guid: 53487a2bb8d3a424e8eb8af3208aadc2, type: 3}
   MuscleCar: {fileID: 773594107858395206, guid: 542c22e0d80a1a94d84dda9213421e66, type: 3}
   Spawn: {fileID: 1619357465}
+  amOpening: 0
 --- !u!114 &842416900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -571,6 +591,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amOpening: 0
+  carSelector: {fileID: 0}
+  lvlSelector: {fileID: 0}
 --- !u!4 &842416901
 Transform:
   m_ObjectHideFlags: 0
