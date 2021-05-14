@@ -70,7 +70,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &940002637225607948
 Transform:
@@ -87,18 +87,6 @@ Transform:
   - {fileID: 5937497960753710075}
   - {fileID: 7041675399169006143}
   - {fileID: 6952560140891915071}
-  - {fileID: 2729864824835173091}
-  - {fileID: 1538521870136916534}
-  - {fileID: 2157324797770259523}
-  - {fileID: 4005442713793526275}
-  - {fileID: 5645335019677085298}
-  - {fileID: 2880502715269043887}
-  - {fileID: 5965979412347384671}
-  - {fileID: 4033019436010613872}
-  - {fileID: 5606423562490293517}
-  - {fileID: 120168316067124111}
-  - {fileID: 8533414882683238939}
-  - {fileID: 6694715988261629719}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -144,7 +132,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4260950204059254175
 Transform:
@@ -159,6 +147,18 @@ Transform:
   m_Children:
   - {fileID: 3512750505425386890}
   - {fileID: 2324415187428714961}
+  - {fileID: 2729864824835173091}
+  - {fileID: 1538521870136916534}
+  - {fileID: 2157324797770259523}
+  - {fileID: 4005442713793526275}
+  - {fileID: 5645335019677085298}
+  - {fileID: 2880502715269043887}
+  - {fileID: 5965979412347384671}
+  - {fileID: 4033019436010613872}
+  - {fileID: 5606423562490293517}
+  - {fileID: 120168316067124111}
+  - {fileID: 8533414882683238939}
+  - {fileID: 6694715988261629719}
   m_Father: {fileID: 940002637225607948}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -246,20 +246,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1837576784468294125, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
---- !u!64 &2338405861731323449
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5356761296259082457}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2332861813427305680, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
 --- !u!64 &5613901936578490343
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -305,7 +291,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3512750505425386890
 Transform:
@@ -427,7 +413,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5937497960753710075
 Transform:
@@ -568,7 +554,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6952560140891915071
 Transform:
@@ -581,7 +567,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4691865327316054627}
   - {fileID: 2466994404495528236}
   - {fileID: 2368186555199929017}
   - {fileID: 1124745680434589782}
@@ -699,7 +684,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7041675399169006143
 Transform:
@@ -824,6 +809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road-hill-curve (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
 --- !u!4 &7398659526195629506 stripped
@@ -841,6 +830,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -902,15 +895,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 940002637225607948}
+    m_TransformParent: {fileID: 4260950204059254175}
     m_Modifications:
     - target: {fileID: 1000011858052182, guid: 41b656ace1fc7b544aac223a2f885bb8, type: 3}
       propertyPath: m_Name
       value: mountain-desert_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011858052182, guid: 41b656ace1fc7b544aac223a2f885bb8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014192746172, guid: 41b656ace1fc7b544aac223a2f885bb8, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4000014192746172, guid: 41b656ace1fc7b544aac223a2f885bb8, type: 3}
       propertyPath: m_LocalScale.x
@@ -981,6 +978,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -1096,6 +1097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road-curve (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8011715734461638364, guid: 47dbb00d2a91c184a9f6f6ae26587fea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47dbb00d2a91c184a9f6f6ae26587fea, type: 3}
 --- !u!4 &7919605742960314831 stripped
@@ -1157,6 +1162,10 @@ PrefabInstance:
     - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-curve (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
@@ -1224,6 +1233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -1245,6 +1258,10 @@ PrefabInstance:
     - target: {fileID: 738976461771503988, guid: de37f2ae5ad21d843aae567e10789d7e, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-ramps (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 738976461771503988, guid: de37f2ae5ad21d843aae567e10789d7e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 738976461771531604, guid: de37f2ae5ad21d843aae567e10789d7e, type: 3}
       propertyPath: m_RootOrder
@@ -1360,6 +1377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &6476258036042492974 stripped
@@ -1377,6 +1398,10 @@ PrefabInstance:
     - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4027436944564766, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_RootOrder
@@ -1492,6 +1517,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road-hill-curve (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
 --- !u!4 &7331585005720246749 stripped
@@ -1509,6 +1538,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -1620,6 +1653,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -1641,6 +1678,10 @@ PrefabInstance:
     - target: {fileID: 1432434338391777881, guid: b032a0e8a24447341981a4603004fe43, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-ramp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1432434338391777881, guid: b032a0e8a24447341981a4603004fe43, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1432434338392079993, guid: b032a0e8a24447341981a4603004fe43, type: 3}
       propertyPath: m_RootOrder
@@ -1688,14 +1729,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b032a0e8a24447341981a4603004fe43, type: 3}
---- !u!4 &1624235689673041305 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1432434338392079993, guid: b032a0e8a24447341981a4603004fe43, type: 3}
-  m_PrefabInstance: {fileID: 390536299265088480}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1624235689673406905 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1432434338391777881, guid: b032a0e8a24447341981a4603004fe43, type: 3}
+  m_PrefabInstance: {fileID: 390536299265088480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1624235689673041305 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1432434338392079993, guid: b032a0e8a24447341981a4603004fe43, type: 3}
   m_PrefabInstance: {fileID: 390536299265088480}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &413582095693107205
@@ -1708,6 +1749,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -1775,6 +1820,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-hill (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
       value: 77
@@ -1841,6 +1890,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1696244135999360, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4285129450155808, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
       propertyPath: m_RootOrder
       value: 58
@@ -1906,6 +1959,10 @@ PrefabInstance:
     - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_Name
       value: bridge-pillars-large-straight (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
@@ -2017,6 +2074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &6712154974318076469 stripped
@@ -2033,7 +2094,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2079,16 +2140,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrierWall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
---- !u!1 &346837163985677036 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
-  m_PrefabInstance: {fileID: 581350563011631037}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1124745680434589782 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
+  m_PrefabInstance: {fileID: 581350563011631037}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &346837163985677036 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
   m_PrefabInstance: {fileID: 581350563011631037}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &594238290694787506
@@ -2150,6 +2215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road-curve
       objectReference: {fileID: 0}
+    - target: {fileID: 8011715734461638364, guid: 47dbb00d2a91c184a9f6f6ae26587fea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47dbb00d2a91c184a9f6f6ae26587fea, type: 3}
 --- !u!4 &7426573845331815246 stripped
@@ -2167,6 +2236,10 @@ PrefabInstance:
     - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_Name
       value: bridge-pillars-large-straight (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
@@ -2230,6 +2303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-large-straight (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2290,7 +2367,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2336,16 +2413,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: railDouble
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
---- !u!4 &908160072316203661 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
-  m_PrefabInstance: {fileID: 797374333598356838}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &563440793946810423 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
+  m_PrefabInstance: {fileID: 797374333598356838}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &908160072316203661 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
   m_PrefabInstance: {fileID: 797374333598356838}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &828171183077999729
@@ -2358,6 +2439,10 @@ PrefabInstance:
     - target: {fileID: 1941776481603604, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
       propertyPath: m_Name
       value: bridge-road-hill (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941776481603604, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4033369343290700, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
       propertyPath: m_RootOrder
@@ -2473,6 +2558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &6236916441922690011 stripped
@@ -2490,6 +2579,10 @@ PrefabInstance:
     - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4027436944564766, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_RootOrder
@@ -2556,6 +2649,10 @@ PrefabInstance:
     - target: {fileID: 1941776481603604, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
       propertyPath: m_Name
       value: bridge-road-hill (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941776481603604, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4033369343290700, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
       propertyPath: m_RootOrder
@@ -2671,6 +2768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &6271294451915386898 stripped
@@ -2737,6 +2838,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road-hill-curve (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
 --- !u!4 &7551010403245290222 stripped
@@ -2754,6 +2859,10 @@ PrefabInstance:
     - target: {fileID: 1696244135999360, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
       propertyPath: m_Name
       value: bridge-road (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696244135999360, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4285129450155808, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
       propertyPath: m_RootOrder
@@ -2821,6 +2930,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-hill (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
       value: 102
@@ -2886,6 +2999,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -2997,6 +3114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -3018,6 +3139,10 @@ PrefabInstance:
     - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_Name
       value: bridge-pillars-large-straight (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
@@ -3080,6 +3205,10 @@ PrefabInstance:
     - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4027436944564766, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_RootOrder
@@ -3146,6 +3275,10 @@ PrefabInstance:
     - target: {fileID: 1696244135999360, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
       propertyPath: m_Name
       value: bridge-road (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696244135999360, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4285129450155808, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
       propertyPath: m_RootOrder
@@ -3261,6 +3394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road-hill-curve (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
 --- !u!4 &8228360484869627079 stripped
@@ -3322,6 +3459,10 @@ PrefabInstance:
     - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-curve (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
@@ -3389,6 +3530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -3405,15 +3550,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 940002637225607948}
+    m_TransformParent: {fileID: 4260950204059254175}
     m_Modifications:
     - target: {fileID: 1000013334854446, guid: a1c2bd6c24611e84e93732819229ac3a, type: 3}
       propertyPath: m_Name
       value: vulcano
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013334854446, guid: a1c2bd6c24611e84e93732819229ac3a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013725179088, guid: a1c2bd6c24611e84e93732819229ac3a, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4000013725179088, guid: a1c2bd6c24611e84e93732819229ac3a, type: 3}
       propertyPath: m_LocalScale.x
@@ -3529,16 +3678,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: roadEnd
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7011d97d4efa6a94780112b99b7300ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7011d97d4efa6a94780112b99b7300ac, type: 3}
---- !u!4 &1293751290280673098 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7011d97d4efa6a94780112b99b7300ac, type: 3}
-  m_PrefabInstance: {fileID: 1620990806579779745}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1927403602038597104 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7011d97d4efa6a94780112b99b7300ac, type: 3}
+  m_PrefabInstance: {fileID: 1620990806579779745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1293751290280673098 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7011d97d4efa6a94780112b99b7300ac, type: 3}
   m_PrefabInstance: {fileID: 1620990806579779745}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1872427304629276043
@@ -3596,6 +3749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -3616,7 +3773,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3662,16 +3819,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: railDouble (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
---- !u!1 &1700843924755660094 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
-  m_PrefabInstance: {fileID: 1971439020839534703}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2076524626531411844 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
+  m_PrefabInstance: {fileID: 1971439020839534703}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1700843924755660094 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
   m_PrefabInstance: {fileID: 1971439020839534703}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2019371709907193371
@@ -3732,6 +3893,10 @@ PrefabInstance:
     - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
       propertyPath: m_Name
       value: bridge-road-hill-curve (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
@@ -3799,6 +3964,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road-hill-curve (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
 --- !u!4 &8867990797383614148 stripped
@@ -3811,15 +3980,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 940002637225607948}
+    m_TransformParent: {fileID: 4260950204059254175}
     m_Modifications:
     - target: {fileID: 1000013334854446, guid: a1c2bd6c24611e84e93732819229ac3a, type: 3}
       propertyPath: m_Name
       value: vulcano_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013334854446, guid: a1c2bd6c24611e84e93732819229ac3a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013725179088, guid: a1c2bd6c24611e84e93732819229ac3a, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4000013725179088, guid: a1c2bd6c24611e84e93732819229ac3a, type: 3}
       propertyPath: m_LocalScale.x
@@ -3890,6 +4063,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -4001,6 +4178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -4022,6 +4203,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bf8d317df722d644f99e8ff3926c99d9, type: 3}
       propertyPath: m_Name
       value: Mounting_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bf8d317df722d644f99e8ff3926c99d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf8d317df722d644f99e8ff3926c99d9, type: 3}
       propertyPath: m_RootOrder
@@ -4081,14 +4266,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf8d317df722d644f99e8ff3926c99d9, type: 3}
---- !u!4 &2324415187428714961 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: bf8d317df722d644f99e8ff3926c99d9, type: 3}
-  m_PrefabInstance: {fileID: 2324415187428324177}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2324415187428423153 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: bf8d317df722d644f99e8ff3926c99d9, type: 3}
+  m_PrefabInstance: {fileID: 2324415187428324177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2324415187428714961 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: bf8d317df722d644f99e8ff3926c99d9, type: 3}
   m_PrefabInstance: {fileID: 2324415187428324177}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2448946771824950564
@@ -4101,6 +4286,10 @@ PrefabInstance:
     - target: {fileID: 1696244135999360, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
       propertyPath: m_Name
       value: bridge-road (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696244135999360, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4285129450155808, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
       propertyPath: m_RootOrder
@@ -4167,6 +4356,10 @@ PrefabInstance:
     - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_Name
       value: bridge-pillars-large-straight (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
@@ -4274,6 +4467,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -4294,7 +4491,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4340,16 +4537,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrierWall
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
---- !u!1 &2987952516175842198 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
-  m_PrefabInstance: {fileID: 2717428876537525959}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2466994404495528236 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
+  m_PrefabInstance: {fileID: 2717428876537525959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2987952516175842198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
   m_PrefabInstance: {fileID: 2717428876537525959}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2732656267409257567
@@ -4357,15 +4558,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 940002637225607948}
+    m_TransformParent: {fileID: 4260950204059254175}
     m_Modifications:
     - target: {fileID: 1000011858052182, guid: 41b656ace1fc7b544aac223a2f885bb8, type: 3}
       propertyPath: m_Name
       value: mountain-desert
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011858052182, guid: 41b656ace1fc7b544aac223a2f885bb8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014192746172, guid: 41b656ace1fc7b544aac223a2f885bb8, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4000014192746172, guid: 41b656ace1fc7b544aac223a2f885bb8, type: 3}
       propertyPath: m_LocalScale.x
@@ -4481,6 +4686,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -4551,6 +4760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &9051944662716177984 stripped
@@ -4567,7 +4780,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4612,6 +4825,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_Name
       value: barrierWall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
@@ -4680,6 +4897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -4696,15 +4917,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 940002637225607948}
+    m_TransformParent: {fileID: 4260950204059254175}
     m_Modifications:
     - target: {fileID: 1000013109061400, guid: 6228c19456995de4c86164256d34acae, type: 3}
       propertyPath: m_Name
       value: ground-cracked_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013109061400, guid: 6228c19456995de4c86164256d34acae, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013472632014, guid: 6228c19456995de4c86164256d34acae, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4000013472632014, guid: 6228c19456995de4c86164256d34acae, type: 3}
       propertyPath: m_LocalScale.x
@@ -4816,6 +5041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -4837,6 +5066,10 @@ PrefabInstance:
     - target: {fileID: 1696244135999360, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
       propertyPath: m_Name
       value: bridge-road (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696244135999360, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4285129450155808, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
       propertyPath: m_RootOrder
@@ -4902,7 +5135,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4948,6 +5181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrierWall (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
 --- !u!1 &2344203888481825240 stripped
@@ -4970,6 +5207,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -5036,6 +5277,10 @@ PrefabInstance:
     - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4027436944564766, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_RootOrder
@@ -5151,6 +5396,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road-hill-curve (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
 --- !u!4 &5461028475568077953 stripped
@@ -5167,7 +5416,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5213,6 +5462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: railDouble (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
 --- !u!4 &3039544030313807873 stripped
@@ -5235,6 +5488,10 @@ PrefabInstance:
     - target: {fileID: 1696244135999360, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
       propertyPath: m_Name
       value: bridge-road (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696244135999360, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4285129450155808, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
       propertyPath: m_RootOrder
@@ -5300,7 +5557,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5346,6 +5603,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: railDouble (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
 --- !u!4 &2968656705939770541 stripped
@@ -5368,6 +5629,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -5435,6 +5700,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1696244135999360, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4285129450155808, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -5500,6 +5769,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -5567,6 +5840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-hill (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
       value: 81
@@ -5633,6 +5910,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-large-straight (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -5694,6 +5975,10 @@ PrefabInstance:
     - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4027436944564766, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_RootOrder
@@ -5809,6 +6094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &7500553996430536642 stripped
@@ -5826,6 +6115,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -5892,6 +6185,10 @@ PrefabInstance:
     - target: {fileID: 1696244135999360, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
       propertyPath: m_Name
       value: bridge-road (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696244135999360, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4285129450155808, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
       propertyPath: m_RootOrder
@@ -6003,6 +6300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -6024,6 +6325,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -6085,15 +6390,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 940002637225607948}
+    m_TransformParent: {fileID: 4260950204059254175}
     m_Modifications:
     - target: {fileID: 1000013109061400, guid: 6228c19456995de4c86164256d34acae, type: 3}
       propertyPath: m_Name
       value: ground-cracked
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013109061400, guid: 6228c19456995de4c86164256d34acae, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013472632014, guid: 6228c19456995de4c86164256d34acae, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4000013472632014, guid: 6228c19456995de4c86164256d34acae, type: 3}
       propertyPath: m_LocalScale.x
@@ -6155,15 +6464,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 940002637225607948}
+    m_TransformParent: {fileID: 4260950204059254175}
     m_Modifications:
     - target: {fileID: 1000013109061400, guid: 6228c19456995de4c86164256d34acae, type: 3}
       propertyPath: m_Name
       value: ground-cracked_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013109061400, guid: 6228c19456995de4c86164256d34acae, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013472632014, guid: 6228c19456995de4c86164256d34acae, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4000013472632014, guid: 6228c19456995de4c86164256d34acae, type: 3}
       propertyPath: m_LocalScale.x
@@ -6230,6 +6543,10 @@ PrefabInstance:
     - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_Name
       value: bridge-pillars-large-straight (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
@@ -6341,6 +6658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &7171599504041919723 stripped
@@ -6358,6 +6679,10 @@ PrefabInstance:
     - target: {fileID: 1941776481603604, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
       propertyPath: m_Name
       value: bridge-road-hill (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941776481603604, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4033369343290700, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
       propertyPath: m_RootOrder
@@ -6469,6 +6794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -6539,6 +6868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &7027425853686142257 stripped
@@ -6556,6 +6889,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -6671,6 +7008,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road-hill-curve (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
 --- !u!4 &6508834373393970030 stripped
@@ -6736,6 +7077,10 @@ PrefabInstance:
     - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
       propertyPath: m_Name
       value: bridge-road-hill-curve (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
@@ -6803,6 +7148,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &7230872154460404293 stripped
@@ -6819,7 +7168,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6865,16 +7214,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: railDouble (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
---- !u!4 &4058277999030431168 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
-  m_PrefabInstance: {fileID: 4601376086289320491}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3682316093659920250 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
+  m_PrefabInstance: {fileID: 4601376086289320491}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4058277999030431168 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
   m_PrefabInstance: {fileID: 4601376086289320491}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4613010728935732471
@@ -6936,6 +7289,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &1914949041499120297 stripped
@@ -6952,7 +7309,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6997,6 +7354,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_Name
       value: railDouble (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
@@ -7069,6 +7430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &1942818252377384853 stripped
@@ -7135,6 +7500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road-hill-curve
       objectReference: {fileID: 0}
+    - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
 --- !u!4 &2784491997361555820 stripped
@@ -7151,7 +7520,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7196,6 +7565,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_Name
       value: barrierWall (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
@@ -7264,6 +7637,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -7330,6 +7707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -7351,6 +7732,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -7418,6 +7803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-ramp (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1432434338391777881, guid: b032a0e8a24447341981a4603004fe43, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1432434338392079993, guid: b032a0e8a24447341981a4603004fe43, type: 3}
       propertyPath: m_RootOrder
       value: 105
@@ -7464,14 +7853,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b032a0e8a24447341981a4603004fe43, type: 3}
---- !u!4 &6285824848816688457 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1432434338392079993, guid: b032a0e8a24447341981a4603004fe43, type: 3}
-  m_PrefabInstance: {fileID: 4961483640751305520}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6285824848816853353 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1432434338391777881, guid: b032a0e8a24447341981a4603004fe43, type: 3}
+  m_PrefabInstance: {fileID: 4961483640751305520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6285824848816688457 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1432434338392079993, guid: b032a0e8a24447341981a4603004fe43, type: 3}
   m_PrefabInstance: {fileID: 4961483640751305520}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4968824043137457730
@@ -7532,6 +7921,10 @@ PrefabInstance:
     - target: {fileID: 6389780277532430638, guid: 1167bf001fc67214a845d2214dea7dd4, type: 3}
       propertyPath: m_Name
       value: tile-road-to-mainroad (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6389780277532430638, guid: 1167bf001fc67214a845d2214dea7dd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1167bf001fc67214a845d2214dea7dd4, type: 3}
@@ -7594,6 +7987,10 @@ PrefabInstance:
     - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-curve (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
@@ -7661,6 +8058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -7671,77 +8072,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5725738811896411153, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
   m_PrefabInstance: {fileID: 5004394676418808291}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &5086362597353608584
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6952560140891915071}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -24.38
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 61.80001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -195
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
-      propertyPath: m_Name
-      value: overheadRound
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
---- !u!4 &4691865327316054627 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
-  m_PrefabInstance: {fileID: 5086362597353608584}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5356761296259082457 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a076fb3c32b62c54aa568d74c8106cc3, type: 3}
-  m_PrefabInstance: {fileID: 5086362597353608584}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5090266691650094756
 PrefabInstance:
@@ -7801,6 +8131,10 @@ PrefabInstance:
     - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
       propertyPath: m_Name
       value: bridge-pillars-straight (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
@@ -7868,6 +8202,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road-hill-curve (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
 --- !u!4 &3370043180237503228 stripped
@@ -7885,6 +8223,10 @@ PrefabInstance:
     - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_Name
       value: bridge-pillars-large-straight (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
@@ -7996,6 +8338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &1170685262235403690 stripped
@@ -8013,6 +8359,10 @@ PrefabInstance:
     - target: {fileID: 1941776481603604, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
       propertyPath: m_Name
       value: bridge-road-hill (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941776481603604, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4033369343290700, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
       propertyPath: m_RootOrder
@@ -8124,6 +8474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -8145,6 +8499,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -8256,6 +8614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -8277,6 +8639,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -8392,6 +8758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road-hill-curve (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
 --- !u!4 &3168108893498631843 stripped
@@ -8404,15 +8774,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 940002637225607948}
+    m_TransformParent: {fileID: 4260950204059254175}
     m_Modifications:
     - target: {fileID: 1000011858052182, guid: 41b656ace1fc7b544aac223a2f885bb8, type: 3}
       propertyPath: m_Name
       value: mountain-desert_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011858052182, guid: 41b656ace1fc7b544aac223a2f885bb8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014192746172, guid: 41b656ace1fc7b544aac223a2f885bb8, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4000014192746172, guid: 41b656ace1fc7b544aac223a2f885bb8, type: 3}
       propertyPath: m_LocalScale.x
@@ -8478,15 +8852,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 940002637225607948}
+    m_TransformParent: {fileID: 4260950204059254175}
     m_Modifications:
     - target: {fileID: 1000013109061400, guid: 6228c19456995de4c86164256d34acae, type: 3}
       propertyPath: m_Name
       value: ground-cracked_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013109061400, guid: 6228c19456995de4c86164256d34acae, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013472632014, guid: 6228c19456995de4c86164256d34acae, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4000013472632014, guid: 6228c19456995de4c86164256d34acae, type: 3}
       propertyPath: m_LocalScale.x
@@ -8602,6 +8980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-road-to-mainroad
       objectReference: {fileID: 0}
+    - target: {fileID: 6389780277532430638, guid: 1167bf001fc67214a845d2214dea7dd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1167bf001fc67214a845d2214dea7dd4, type: 3}
 --- !u!4 &1702131133896139427 stripped
@@ -8664,6 +9046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -8685,6 +9071,10 @@ PrefabInstance:
     - target: {fileID: 738976461771503988, guid: de37f2ae5ad21d843aae567e10789d7e, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-ramps
+      objectReference: {fileID: 0}
+    - target: {fileID: 738976461771503988, guid: de37f2ae5ad21d843aae567e10789d7e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 738976461771531604, guid: de37f2ae5ad21d843aae567e10789d7e, type: 3}
       propertyPath: m_RootOrder
@@ -8751,6 +9141,10 @@ PrefabInstance:
     - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_Name
       value: bridge-pillars-large-straight (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
@@ -8858,6 +9252,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -8874,15 +9272,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 940002637225607948}
+    m_TransformParent: {fileID: 4260950204059254175}
     m_Modifications:
     - target: {fileID: 1000013109061400, guid: 6228c19456995de4c86164256d34acae, type: 3}
       propertyPath: m_Name
       value: ground-cracked_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013109061400, guid: 6228c19456995de4c86164256d34acae, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013472632014, guid: 6228c19456995de4c86164256d34acae, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000013472632014, guid: 6228c19456995de4c86164256d34acae, type: 3}
       propertyPath: m_LocalScale.x
@@ -8994,6 +9396,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -9015,6 +9421,10 @@ PrefabInstance:
     - target: {fileID: 1941776481603604, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
       propertyPath: m_Name
       value: bridge-road-hill
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941776481603604, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4033369343290700, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
       propertyPath: m_RootOrder
@@ -9082,6 +9492,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-large-straight (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -9144,6 +9558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-large-straight (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -9205,6 +9623,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -9270,7 +9692,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9316,16 +9738,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: railDouble (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
---- !u!4 &6826328199010968056 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
-  m_PrefabInstance: {fileID: 6426993086672045587}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6192500034114140994 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
+  m_PrefabInstance: {fileID: 6426993086672045587}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6826328199010968056 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
   m_PrefabInstance: {fileID: 6426993086672045587}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6479094988090299848
@@ -9383,6 +9809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -9404,6 +9834,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -9465,15 +9899,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 940002637225607948}
+    m_TransformParent: {fileID: 4260950204059254175}
     m_Modifications:
     - target: {fileID: 1000012462458770, guid: c16b273bb66f2484da70cc699a851863, type: 3}
       propertyPath: m_Name
       value: mountains
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012462458770, guid: c16b273bb66f2484da70cc699a851863, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012118680452, guid: c16b273bb66f2484da70cc699a851863, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4000012118680452, guid: c16b273bb66f2484da70cc699a851863, type: 3}
       propertyPath: m_LocalScale.x
@@ -9593,6 +10031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road-curve (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8011715734461638364, guid: 47dbb00d2a91c184a9f6f6ae26587fea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47dbb00d2a91c184a9f6f6ae26587fea, type: 3}
 --- !u!4 &3569980705329022873 stripped
@@ -9658,6 +10100,10 @@ PrefabInstance:
     - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
       propertyPath: m_Name
       value: bridge-road-hill-curve (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
@@ -9725,6 +10171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road-hill-curve (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
 --- !u!4 &304907500117213835 stripped
@@ -9791,6 +10241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &4062252953403865521 stripped
@@ -9808,6 +10262,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -9875,6 +10333,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-ramp (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1432434338391777881, guid: b032a0e8a24447341981a4603004fe43, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1432434338392079993, guid: b032a0e8a24447341981a4603004fe43, type: 3}
       propertyPath: m_RootOrder
       value: 79
@@ -9921,14 +10383,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b032a0e8a24447341981a4603004fe43, type: 3}
---- !u!1 &8613641278444832746 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1432434338391777881, guid: b032a0e8a24447341981a4603004fe43, type: 3}
-  m_PrefabInstance: {fileID: 7235255366302393779}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8613641278445263818 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1432434338392079993, guid: b032a0e8a24447341981a4603004fe43, type: 3}
+  m_PrefabInstance: {fileID: 7235255366302393779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8613641278444832746 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1432434338391777881, guid: b032a0e8a24447341981a4603004fe43, type: 3}
   m_PrefabInstance: {fileID: 7235255366302393779}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7389300617271049636
@@ -9941,6 +10403,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -10056,6 +10522,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &4330894560794497883 stripped
@@ -10073,6 +10543,10 @@ PrefabInstance:
     - target: {fileID: 1941776481603604, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
       propertyPath: m_Name
       value: bridge-road-hill (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941776481603604, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4033369343290700, guid: 0575af541c1b9448bb7caf9e8dcde1e7, type: 3}
       propertyPath: m_RootOrder
@@ -10140,6 +10614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-large-straight (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -10201,6 +10679,10 @@ PrefabInstance:
     - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4027436944564766, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_RootOrder
@@ -10316,6 +10798,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road-curve (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8011715734461638364, guid: 47dbb00d2a91c184a9f6f6ae26587fea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47dbb00d2a91c184a9f6f6ae26587fea, type: 3}
 --- !u!4 &325501622524563553 stripped
@@ -10333,6 +10819,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -10400,6 +10890,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-hill (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
       value: 85
@@ -10466,6 +10960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-large-straight (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -10528,6 +11026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-large-straight
       objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -10589,6 +11091,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -10656,6 +11162,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4027436944564766, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -10720,7 +11230,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10766,6 +11276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrierWall (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
 --- !u!4 &7635310086702848742 stripped
@@ -10788,6 +11302,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -10855,6 +11373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-hill (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
       value: 47
@@ -10919,7 +11441,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10965,16 +11487,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: railDouble (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
---- !u!4 &8389479175041374901 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
-  m_PrefabInstance: {fileID: 8351876723504954718}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &9162215484887695375 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
+  m_PrefabInstance: {fileID: 8351876723504954718}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8389479175041374901 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8ef7a1c48925acf41a39429952dd3f02, type: 3}
   m_PrefabInstance: {fileID: 8351876723504954718}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8369452237021903686
@@ -10987,6 +11513,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -11054,6 +11584,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-large-straight (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -11116,6 +11650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-hill (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
       value: 96
@@ -11176,15 +11714,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 940002637225607948}
+    m_TransformParent: {fileID: 4260950204059254175}
     m_Modifications:
     - target: {fileID: 1000011858052182, guid: 41b656ace1fc7b544aac223a2f885bb8, type: 3}
       propertyPath: m_Name
       value: mountain-desert_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011858052182, guid: 41b656ace1fc7b544aac223a2f885bb8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014192746172, guid: 41b656ace1fc7b544aac223a2f885bb8, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4000014192746172, guid: 41b656ace1fc7b544aac223a2f885bb8, type: 3}
       propertyPath: m_LocalScale.x
@@ -11300,6 +11842,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -11321,6 +11867,10 @@ PrefabInstance:
     - target: {fileID: 1432434338391777881, guid: b032a0e8a24447341981a4603004fe43, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-ramp (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1432434338391777881, guid: b032a0e8a24447341981a4603004fe43, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1432434338392079993, guid: b032a0e8a24447341981a4603004fe43, type: 3}
       propertyPath: m_RootOrder
@@ -11437,6 +11987,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-road-hill-curve (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7375725228583700023, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05b308f71edad2408679ccd3f8b66a3, type: 3}
 --- !u!4 &1235505962090355540 stripped
@@ -11454,6 +12008,10 @@ PrefabInstance:
     - target: {fileID: 1696244135999360, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
       propertyPath: m_Name
       value: bridge-road
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696244135999360, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4285129450155808, guid: 1e80baf2d99cd447588253edcd9cacbb, type: 3}
       propertyPath: m_RootOrder
@@ -11521,6 +12079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-large-straight (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -11582,6 +12144,10 @@ PrefabInstance:
     - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_Name
       value: bridge-pillars-large-straight (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213957781871332722, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9213957781871432018, guid: f6b1cf5fb0c2ad546913afe9f1f90910, type: 3}
       propertyPath: m_RootOrder
@@ -11693,6 +12259,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &2334809207197368232 stripped
@@ -11710,6 +12280,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder
@@ -11775,7 +12349,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11821,16 +12395,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrierWall (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
---- !u!4 &8883157625346927939 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
-  m_PrefabInstance: {fileID: 8993101002716891816}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8073969412042618873 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
+  m_PrefabInstance: {fileID: 8993101002716891816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8883157625346927939 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
   m_PrefabInstance: {fileID: 8993101002716891816}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9001519165254976392
@@ -11891,6 +12469,10 @@ PrefabInstance:
     - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
       propertyPath: m_Name
       value: bridge-pillars-straight (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
@@ -11958,6 +12540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &2816683427438050983 stripped
@@ -11975,6 +12561,10 @@ PrefabInstance:
     - target: {fileID: 1432434338391777881, guid: b032a0e8a24447341981a4603004fe43, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-ramp (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1432434338391777881, guid: b032a0e8a24447341981a4603004fe43, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1432434338392079993, guid: b032a0e8a24447341981a4603004fe43, type: 3}
       propertyPath: m_RootOrder
@@ -12022,14 +12612,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b032a0e8a24447341981a4603004fe43, type: 3}
---- !u!4 &7950049051171115992 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1432434338392079993, guid: b032a0e8a24447341981a4603004fe43, type: 3}
-  m_PrefabInstance: {fileID: 9058207855455382945}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &7950049051171082232 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1432434338391777881, guid: b032a0e8a24447341981a4603004fe43, type: 3}
+  m_PrefabInstance: {fileID: 9058207855455382945}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7950049051171115992 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1432434338392079993, guid: b032a0e8a24447341981a4603004fe43, type: 3}
   m_PrefabInstance: {fileID: 9058207855455382945}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9120117501826192595
@@ -12041,7 +12631,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12086,6 +12676,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
       propertyPath: m_Name
       value: barrierWall (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16f9a293cc3b0254aac31ebfae8954e2, type: 3}
@@ -12154,6 +12748,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -12220,6 +12818,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-mainroad-curve (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725738811896834097, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7076115220200150595, guid: 20c9ea82d6b0913418255a5b8defeaa0, type: 3}
       propertyPath: m_Material
       value: 
@@ -12241,6 +12843,10 @@ PrefabInstance:
     - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4027436944564766, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_RootOrder
@@ -12356,6 +12962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge-pillars-straight (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6527950964644088446, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9555fab8155457b438ee3785c295ba92, type: 3}
 --- !u!4 &2715754377557558676 stripped
@@ -12373,6 +12983,10 @@ PrefabInstance:
     - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485058863412496, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4027436944564766, guid: c2b259805063b4b7aa24c8415f0afb25, type: 3}
       propertyPath: m_RootOrder
@@ -12439,6 +13053,10 @@ PrefabInstance:
     - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_Name
       value: bridge-mainroad-hill (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499466175672216, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4677260119848768, guid: f9dca89f7dd8b4ad8b9b30bee673273f, type: 3}
       propertyPath: m_RootOrder

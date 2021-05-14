@@ -9,27 +9,24 @@ using Random = UnityEngine.Random;
 public class BackgroundMusic : MonoBehaviour
 {
     public List<AudioClip> soundtrack;
-    private int maxSize;
     public AudioSource musicPlayer;
-
-    private int lastPlayed = 0;
+    
+    public int currentSong = -1;
     // public List<AudioClip> carSounds;
     // public AudioSource carPlayer;
 
     // public AudioSource carSlipAndSlideSound;
-    //
     private void Awake()
     {
-        var objs = GameObject.FindGameObjectsWithTag("Audio Player");
-        if (objs.Length > 1)
-        {
-            Destroy(this.gameObject);
-            return;
-        }
-
-        maxSize = soundtrack.Count;
+        // var objs = GameObject.FindGameObjectsWithTag("Audio Player");
+        // if (objs.Length > 1)
+        // {
+        //     Destroy(this.gameObject);
+        //     return;
+        // }
+        
+        Shuffle();
         DontDestroyOnLoad(this);
-        PlayNextSong();
     }
 
     
@@ -40,25 +37,45 @@ public class BackgroundMusic : MonoBehaviour
             PlayNextSong();
         }
 
-        if (!Input.GetKey(KeyCode.N)) return;
-        musicPlayer.Stop();
-        PlayNextSong();
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            PlayLastSong();
+        }
 
-        // if (!carPlayer.isPlaying)
-        // {
-        //     PlayIdle();
-        // }
-        
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            PlayNextSong();
+        }
+
     }
 
     public void PlayNextSong()
     {
-        if (musicPlayer.isPlaying) return;
-        var index = Random.Range(0, maxSize);
-        if (index == lastPlayed) index = (index + 1) % maxSize;
-        lastPlayed = index;
-        musicPlayer.clip = soundtrack[index];
+        musicPlayer.Stop();
+        currentSong += 1;
+        if (currentSong >= soundtrack.Count) currentSong = 0;
+        musicPlayer.clip = soundtrack[currentSong];
         musicPlayer.Play();
+    }
+
+    public void PlayLastSong()
+    {
+        musicPlayer.Stop();
+        currentSong -= 1;
+        if (currentSong < 0) currentSong = soundtrack.Count - 1;
+        musicPlayer.clip = soundtrack[currentSong];
+        musicPlayer.Play();
+    }
+
+    public void Shuffle()
+    {
+        for(var i = 0; i < soundtrack.Count; i++)
+        {
+            var clip = soundtrack[i];
+            var randomInt = Random.Range(i, soundtrack.Count);
+            soundtrack[i] = soundtrack[randomInt];
+            soundtrack[randomInt] = clip;
+        }
     }
     
     // 0 is start, 1 is idle, 2 is loud, 3 is squeal

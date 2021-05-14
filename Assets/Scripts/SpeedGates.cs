@@ -10,6 +10,7 @@ public class SpeedGates : MonoBehaviour
     public GameObject car;
     public float newSpeed = 50f;
     public static bool Triggered = false;
+    
 
     private void OnTriggerEnter(Collider other)
     {
